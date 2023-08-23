@@ -7,13 +7,13 @@ public class Main {
     public static void main(String[] args) {
         {
             try {
-                BufferedReader   reader = new BufferedReader(new FileReader("C:\\Users\\najib\\Desktop\\Java 2\\pool4\\Aufgabe 1\\untitled\\daten.txt.txt"));
+                BufferedReader   reader = new BufferedReader(new FileReader("C:\\"));
                int AnzahlNummer = Integer.parseInt(reader.readLine());
                 reader.close();
                 // create an array to store Menshen Objects
                 Mensch[] menshen= new Mensch[AnzahlNummer];
                 // Read the data records from the file
-                BufferedReader dataReader = new BufferedReader(new FileReader("C:\\Users\\najib\\Desktop\\Java 2\\pool4\\Aufgabe 1\\untitled\\daten.txt.txt"));
+                BufferedReader dataReader = new BufferedReader(new FileReader("C:\\"));
 
                 // Skip the first line
                 dataReader.readLine();
